@@ -104,8 +104,8 @@ header .header-right button:focus {
 .sticky svg path{
   color: black;
 }
-.sticky #logo {
-  color: black;
+.sticky #logo, .sticky i {
+  color: black !important;
 }
 #logo {
   color: orange;
@@ -155,7 +155,12 @@ header ul li .dropdown-item.active, header ul li .dropdown-item:active {
   color: #FB811E;
   background-color: transparent;
 }
-
+.banner{
+  background-image: url("https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/inner-banner.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: bottom;
+}
 /* our team */
 .our_team {
   background-color: green;
@@ -467,10 +472,6 @@ header ul li .dropdown-item.active, header ul li .dropdown-item:active {
   #carousel_content .col-12 {
     width: 50%;
   }
-  
-  .our_team .content_title .col-12 {
-    width: 33.33%;
-  }
 
   .footer .col-12 {
     width: 33.33%;
@@ -502,15 +503,16 @@ header ul li .dropdown-item.active, header ul li .dropdown-item:active {
   .footer .col-12 {
     width: 33.33%;
   }
-
-  .our_team .content_title .col-12 {
-    width: 33.33%;
-  }
-
 }
 
 @media screen and (max-width: 992px) {
 
+  .error{
+    height: auto;
+    padding-top: 100px;
+    width: 100%;
+    background-position: right;
+  }
   #welcom_title {
     width: 100%;
   }
@@ -533,7 +535,6 @@ header ul li .dropdown-item.active, header ul li .dropdown-item:active {
 }
 
 @media screen and (max-width: 768px) {
-
   .welcom .col-12 .welcom_item img {
     width: 100%;
   }
@@ -570,11 +571,15 @@ header ul li .dropdown-item.active, header ul li .dropdown-item:active {
   .welcom .col-12 {
     width: 100%;
   }
-
+  #form_input {
+    width: 90%;
+  }
+  .error_item svg{
+    width: 100%;
+  }
   .welcom .col-12 img {
     width: 100%;
   }
-
   .carousel .carousel-inner {
     text-align: left;
   }
