@@ -46,15 +46,12 @@ Mỗi thành viên đảm nhiệm việc thiết kế và responsive dựa trên
 
 ### Đường dẫn Deploy Dự án
 - Dự án được Deploy thông qua Vercel ở Đường dẫn: https://bc-61-nhom-chien-duy-capstone.vercel.app/
-- Dự án được Deploy thông qua Vercel ở Đường dẫn ( Dự phòng ): https://bc-61-nhom03-duy-chien-capstone.vercel.app/
 
 ### Đường dẫn Dự án GitHub
 - Dự án sẽ được mỗi thành viên push lên nhánh của riêng mình với tên tương ứng:
-  - Thành viên 01 - Đào Xuân Chiến: nhánh 
+  - Thành viên 01 - Đào Xuân Chiến: nhánh **devChien**
   - Thành viên 02 - Thái Tuấn Duy: nhánh **devDuy**
 
 > **Đường dẫn GitHub Dự án Capstone**: https://github.com/ChienJSDev/BC61_Nhom_ChienDuy_Capstone
-
-> **Đường dẫn Dự phòng GitHub Dự án Capstone**: https://github.com/Simon-Duy/BC61_Nhom03_DuyChien_Capstone
 ---
 #### **Cảm ơn Thầy và Mentor đã hỗ trợ chúng em trong quá trình thực hiện**
